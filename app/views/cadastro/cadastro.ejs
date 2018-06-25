@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro</title>
+  <link href="css/cadastro.css" rel="stylesheet">
+</head>
+<body>
+
+<form>
+<h1>Cadastrar-se</h1>
+<hr>
+  <div class="input-container">
+    <label class="flex-1" for="nome">Nome</label>
+    <input class="flex-9" type="text" placeholder="Digite seu nome" id="nome"/>
+  </div>
+  
+  <div class="input-container">
+    <label class="flex-1" for="cpf">CPF</label>
+    <input class="flex-4" type="text"  placeholder="Digite seu CPF" id="cpf"/>
+    <label class="flex-1"for="rg">RG</label>
+    <input class="flex-4" type="text" placeholder="Digite o RG" id="rg"/>
+  </div>
+
+  <div class="input-container">
+    <label class="flex-1" for="email">Email</label>
+    <input class="flex-9" type="text" placeholder="Digite seu email" id="email"/>
+  </div>
+
+  <div class="input-container">
+    <label class="flex-1" for="senha">Senha</label>
+    <input id="senha" class="flex-9" type="password" placeholder="Digite sua senha" />
+  </div>
+
+  <input id="btnAcessar" type="button"  value="Enviar" /> 
+
+</form>
+  <script  src="cadastrar.js" ></script>
+   <script type="text/javascript" src="Cliente.js"></script>
+  <script type="text/javascript" src="Banco.js"></script>
+  <script type="text/javascript" src="ClienteBanco.js"></script>
+  <script type="text/javascript">
+    bc = new ClienteBanco();
+  </script>
+  <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

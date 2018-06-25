@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --cor-fundo: #34495e;
+  --cor-primaria: #f1c40f;
+  --cor-secundaria: rgba(255,255,255,0.2);
+  --padding-form: 2rem;
+}
+
+html,
+body{
+  height: 100%;
+  font-family:'Saira', sans-serif;
+
+}
+
+
+
+
+html{
+  background: url(../img/fundo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+:root{
+  --padding-form: 2rem;
+}
+
+#escolha{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 110vh;
+
+}
+
+
+  .caixa1:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+  .caixa2:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+  .caixa3:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+  .caixa4:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.caixa1{
+  background: #091b26;
+}
+
+.caixa2{
+  background: #c9eef2;
+}
+
+.caixa3{
+  background: #54828c;
+}
+
+.caixa4{
+  background: #e74c3c;
+
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+[class*="caixa"]{
+  align-items: center;
+  color: rgba(255,255,255,0.8);
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+}
+
+/*inicio bateria*/
+
+#bateria_imagem{
+  background: url(../img/fundo_bateria.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1500px;
+  
+}
+
+#titulo_bateria{
+  margin-top: 120px;
+  color: rgb(254, 254, 254);
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 70px;
+
+}
+#frase_bateria{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(254, 254, 254);
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left: 70px;
+   
+}
+#botao_bateria{
+  display: flex;
+ margin-top: 50px;
+  margin-left: 70px;
+  background: #e74c3c;
+  border: solid 1px;
+  border-color: #e74c3c;
+  padding: 0.8rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+}
+
+/*fim bateria*/
+
+/*inicio piano*/
+
+#piano_imagem{
+  background: url(../img/fundo_piano.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1500px;
+  
+}
+
+#titulo_piano{
+  margin-top: 120px;
+  color: rgb(254, 254, 254);
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 70px;
+
+}
+
+#botao_piano{
+  display: flex;
+ margin-top: 50px;
+  margin-left: 70px;
+  background: #54828c;
+  border: solid 1px;
+  border-color: #54828c;
+  padding: 0.8rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+}
+
+/*fim piano*/
+
+/*inicio flauta*/
+
+#flauta_imagem{
+  background: url(../img/fundo_flauta.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1500px;
+  
+}
+
+#titulo_flauta{
+  margin-top: 120px;
+  color: rgb(254, 254, 254);
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 70px;
+
+}
+
+#botao_flauta{
+  display: flex;
+ margin-top: 50px;
+  margin-left: 70px;
+  background: #e74c3c;
+  border: solid 1px;
+  border-color: #e74c3c;
+  padding: 0.8rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+}
+/*fim flauta*/
+
+/*inicio violao*/
+
+#violao_imagem{
+  background: url(../img/fundo_violao.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1500px;
+  
+}
+#titulo_violao{
+  margin-top: 120px;
+  color: rgb(254, 254, 254);
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 70px;
+
+}
+
+#botao_violao{
+  display: flex;
+ margin-top: 50px;
+  margin-left: 70px;
+  background: #54828c;
+  border: solid 1px;
+  border-color: #54828c;
+  padding: 0.8rem;
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+}
+
+/*fim violao*/
+
+#titulo{
+  display: flex;
+  justify-content: space-between;
+  font-size:25px ;
+  color:rgb(254, 254, 254);
+  margin: 40px;
+  letter-spacing: 5px;
+}
+
+#titulo a{
+  text-decoration: none;
+  color: rgb(254, 254, 254);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+#home{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 130px;
+  font-style: normal;
+  text-align:center;
+  color:rgb(254, 254, 254);
+  height: 100%;
+}
+#home h1{
+  display: flex;
+  letter-spacing: 15px;
+  font-size:80px;
+ 
+}
+
+#home h2{
+ letter-spacing: 5px;
+ font-size:20px;
+ text-align: center;
+ margin-top: 15px;
+  
+}
+
+input{
+  border: 0;
+  outline: none;
+}
+
+#botao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+#cadastrar{
+  background: transparent;
+  border: solid 2px rgba(255,255,255,0.8);
+  bottom: var(--padding-form);
+  border-radius: 40px;
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  width: 150px;
+}
+
+
+#produtos{
+  background: rgba(255,255,255,0.8);
+  bottom: var(--padding-form);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 150px;
+}
+
+#vendas{
+  
+  background: rgba(255,255,255,0.8);
+  height: 100%;
+}  
+
+
+#vendas h3{
+  color: black;
+  font-size: 50px ;
+  margin-top: 200px;
+  margin-left: 100px;
+  letter-spacing: 5px;
+
+}
+#imagens{
+  margin-top: 80px;
+  display: flex;
+  justify-content:  space-around;
+  flex-direction: row;
+}
+#bateria1{
+border: solid 2px;
+padding: 30px;
+}
+
+#bateria2{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#bateria3{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#add_bateria{
+  display: flex;
+ margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+#add_bateria{
+  border: solid 1px black;
+  border-color: #02000D;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 100px;
+}
+/*fim bateria*/
+
+#piano1{
+border: solid 2px;
+padding: 30px;
+}
+
+#piano2{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#piano3{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#add_piano{
+  display: flex;
+ margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+#add_piano{
+  border: solid 1px black;
+  border-color: #02000D;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 100px;
+}
+/*fim piano*/
+
+#flauta1{
+border: solid 2px;
+padding: 30px;
+}
+
+#flauta2{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#flauta3{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#add_flauta{
+  display: flex;
+ margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+#add_flauta{
+  border: solid 1px black;
+  border-color: #02000D;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 100px;
+}
+
+/*fim flauta*/
+
+#violao1{
+border: solid 2px;
+padding: 30px;
+}
+
+#violao2{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#violao3{
+margin-left: 100px;
+border: solid 2px;
+padding: 30px;
+}
+#add_violao{
+  display: flex;
+ margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+#add_violao{
+  border: solid 1px black;
+  border-color: #02000D;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  width: 100px;
+}
+/*fim violao*/
+p{
+  display: flex;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#ad{
+   display: flex;
+  margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+
+#ad{
+ border: solid 1px;
+ border-color: #02000D;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  width: 100px;
+}
+
+#adicionar{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 100px;
+  background: #02000D;
+}
+
+#adicionar{
+  border: solid 1px ;
+   border-color: #02000D;
+  border-radius: 5px;
+  color: black;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 100px;
+}
+
+#fundo{
+  background: rgba(255,255,255,1);
+  height: 1200px;
+  margin: 0;
+} 
+#myList2{
+  display: flex;
+  justify-content: left;
+  margin-left: 100px;
+
+}
+ 
+h4{
+  font-size: 50px ;
+  width: 240px;
+  margin-left:70px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+#ver{
+  
+  margin-top: 70px;
+  margin-left: 1140px;
+  
+}
+
+#ver{
+  border: solid 2px;
+ border-color: #02000D;
+  background: transparent;
+  font-color:black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+
+.btn-remover{
+  border: 0;
+  background: #02000D;
+  color: rgba(255,255,255,1);
+  padding: 1rem;
+  position: absolute;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.clone{
+ position: relative;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+#finalizar{
+   border: solid 2px;
+ border-color: #02000D;
+  background: transparent;
+  font-color:black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+#finalizar{
+  margin-top: 100px;
+  margin-left: 990px;
+
+}
+
+.cad:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+  
+  #fundo img{
+    display: flex;
+
+  }
+#carrinho_botao{
+  display: flex;
+  align-self: flex-start;
+  margin-left: 1250px;
+
+}
+@media screen and (max-width: 640px){
+
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body{
+  height: 100%;
+  font-family:'Saira', sans-serif;
+
+}
+
+  #home h1{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+ 
+
+ 
+  
+  #home{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 130px;
+  font-style: normal;
+  text-align:center;
+  color:rgb(254, 254, 254);
+  height: 100%;
+
+}
+#home h1{
+  display: flex;
+  letter-spacing: 15px;
+  font-size:50px;
+ 
+}
+  
+#home h2{
+ letter-spacing: 5px;
+ font-size:15px;
+ text-align: center;
+ margin-top: 15px;
+  
+}
+
+
+#cadastrar{
+  background: transparent;
+  border: solid 2px rgba(255,255,255,0.8);
+  bottom: var(--padding-form);
+  border-radius: 40px;
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  width: 100px;
+}
+
+
+#produtos{
+  background: rgba(255,255,255,0.8);
+  bottom: var(--padding-form);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100px;
+}
+
+
+
+[class*="caixa"]{
+  align-items: center;
+  color: rgba(255,255,255,0.8);
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+
+}
+
+#titulo_bateria{
+  margin-top: 120px;
+  color: rgb(254, 254, 254);
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-left: 70px;
+
+}
+#frase_bateria{
+  margin-top: 20px;
+ 
+ color: rgb(254, 254, 254);
+  font-size: 15px;
+  letter-spacing: 5px;
+  
+   
+}
+
+#titulo_piano{
+  margin-top: 90px;
+  color: rgb(254, 254, 254);
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-left: 70px;
+
+}
+
+#titulo_violao{
+  margin-top: 90px;
+  color: rgb(254, 254, 254);
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-left: 70px;
+
+}
+#titulo_flauta{
+  margin-top: 90px;
+  color: rgb(254, 254, 254);
+  font-size: 30px;
+  letter-spacing: 8px;
+  margin-left: 70px;
+
+}
+
+#vendas{
+  
+  background: rgba(255,255,255,0.8);
+  height: 100%;
+  
+}  
+
+#vendas img{
+   display: block;
+   position: relative;
+   width: 90px;
+   height: 90px;
+}
+
+
+#vendas h3{
+  color: black;
+  font-size: 30px ;
+  margin-top: 50px;
+  margin-left: 100px;
+  letter-spacing: 3px;
+
+}
+
+  
+#imagens{
+  margin-right: 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+ 
+
+}
+
+#bateria1{
+display: block;
+position: relative;
+margin-left: 95px;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+}
+
+#bateria2{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+#bateria3{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+
+#piano1{
+display: block;
+position: relative;
+margin-left: 95px;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+}
+
+#piano2{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+#piano3{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+
+#flauta1{
+display: block;
+position: relative;
+margin-left: 95px;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+}
+
+#flauta2{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+#flauta3{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+
+#violao1{
+display: block;
+position: relative;
+margin-left: 95px;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+}
+
+#violao2{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+#violao3{
+display: block;
+position: relative;
+margin-bottom: 40px;
+border: solid 2px;
+padding: 10px;
+
+}
+
+
+
+#add_bateria{
+  
+ margin-top: 5px;
+  margin-left: 50px;
+  background: #02000D;
+}
+
+
+#add_bateria{
+  border: solid 1px black;
+  border-color: #02000D;
+  padding: 0.3rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+  width: 90px;
+}
+
+#escolha{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 110vh;
+
+}
+
+#fundo{
+  background: rgba(255,255,255,1);
+  height: 1200px;
+  margin: 0;
+} 
+#myList2{
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex:1;
+
+}
+ 
+h4{
+  font-size: 40px ;
+  width: 240px;
+  margin-left:70px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+#ver{
+  display: block;
+  position: relative;
+  margin-left: 300px;
+  margin-top: 5px;
+  
+  
+}
+
+#ver{
+  border: solid 2px;
+ border-color: #02000D;
+  background: transparent;
+  font-color:black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+
+}

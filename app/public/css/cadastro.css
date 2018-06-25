@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+  background: url(../img/fundoo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img{
+  -webkit-filter: blur(3px);
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+body{
+  align-items: center;
+  display: flex;
+}
+
+form{
+  
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;  
+  margin: 0 auto;
+  width: 80%;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+}
+
+.input-container label{
+  margin-bottom: 0.25rem;
+  max-width: 2rem;
+  color: white;
+}
+
+.input-container input{
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  background: transparent;
+  border-radius: 40px;
+  color: white;
+}
+
+::placeholder{
+  color: rgba(240,240,240,0.8);
+}
+
+input[type="button"]{
+  
+  background: transparent;
+  border: solid 2px rgba(255,255,255,0.8);
+  bottom: var(--padding-form);
+  border-radius: 40px;
+  color: rgba(255,255,255,0.8);
+  font-size: 1rem;
+  padding: 1rem;
+  position: relative;
+  float: center;
+  top: 20px;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
+}
+
+.flex-3{
+  flex: 3;
+}
+
+.flex-4{
+  flex: 4;
+}
+
+.flex-9{
+  flex: 10;
+}
+
+
+/* Tablets / Desktop */
+@media screen and (min-width: 600px){
+  .input-container{
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .input-container label{
+    margin-right: 1rem;
+  }
+
+  .input-container input{
+    margin-right: 1rem;
+  }
+
+  .input-container input:last-of-type{
+    margin-right: 0;
+  }
+ 
+}
